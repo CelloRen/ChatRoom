@@ -26,3 +26,9 @@
   (3)Wu:End-to-end interaction
   
   (4)Yang:DataBase + UI
+
+6.Difficult:
+ 
+  (1)immediately
+  
+  (2)high concurrency
