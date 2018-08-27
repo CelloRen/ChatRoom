@@ -16,3 +16,13 @@
   (4)The UI
   
   (5)concurrency and immediately
+  
+5.Allocate the task:
+  
+  (1)Cello Ren: technology selection + front-end + back-end(main)
+   
+  (2)JJ:front-end(main) + back-end
+  
+  (3)Wu:End-to-end interaction
+  
+  (4)Yang:DataBase + UI
