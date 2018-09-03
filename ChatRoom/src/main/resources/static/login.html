@@ -1,0 +1,108 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: 梁俊杰
+  Date: 2018/3/24
+  Time: 20:03
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>图书管理系统登陆</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<!--[if lt IE 9]>
+    <script src="http://apps.bdimg.com/libs/html5shiv/3.7/htm    l5shiv.min.js"></script>
+<![endif]-->
+</head>
+
+<script type="text/javascript">
+
+
+
+</script>
+
+
+<style type="text/css">
+    .box{
+        width: 1280px;
+        height: 739px;
+        margin: 0 auto;
+        background: url("test.jpg") no-repeat center;
+    }
+</style>
+
+<body>
+<div class="box">
+    <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="list-philosophy.jsp">图书管理系统</a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> </a> </li>
+                    <li><a href="#shop"><span class="glyphicon glyphicon-shopping-cart"></span> </a> </li>
+                    <li><a href="#support"><span class="glyphicon glyphicon-headphones"></span> </a> </li>
+                </ul>
+            </div><!-- /.nav-collapse -->
+        </div><!-- /.container -->
+    </div>
+
+    <!-- jQuery (Bootstrap 插件需要引入) -->
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- 包含了所有编译插件 -->
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <div style="width: 500px; padding: 100px 100px 10px">
+        <div style="height: 320px;width: 350px;background: whitesmoke" class="panel panel-info">
+            <div style="padding-top: 30px;padding-left: 90px" class="panel-heading">
+                <h1 style="align-content: center">登陆Login</h1>
+            </div>
+            <div class="panel-body">
+                <form role="form" method="post" action="LoginCheck">
+                    <fieldset>
+                        <div style="height: 230px;width: 300px;padding-top: 20px;padding-left: 30px">
+                            <form class="bs-example bs-example-form" role="form">
+                                <div class="input-group">
+                                    <span class="input-group-addon">账号</span>
+                                    <input type="text" class="form-control" placeholder="账号" name="Name" autofocus="">
+                                </div>
+                                <br>
+                                <div class="input-group">
+                                    <span class="input-group-addon">密码</span>
+                                    <input type="password" class="form-control" placeholder="密码" name="Password" value="">    <!-- 密码框 -->
+                                </div>
+                                <div style="padding-left:50px;padding-top: 30px;" class="container">
+                                    <div style="padding:0;margin:0;float:left;box-sizing:border-box;">
+                                        <input class="form-control btn btn-default"  type="submit" value="确认" ></input>
+                                    </div>
+                                    <div style="padding-left:30px;margin:0;float:left;box-sizing:border-box;">
+                                        <a href="register.jsp" target="_blank">
+                                            <button type="button" class="btn btn-default">注册</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+
